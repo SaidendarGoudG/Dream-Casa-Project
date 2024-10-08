@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+
+.list-container {
+  background-color: #f4faff;
+  width:100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #e01616;
+  text-align: center;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #0f66e0;
+  text-align: center;
+  max-width: 625px;
+}
+
+.list-cards-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+
+.new-list-container {
+  background-color: #c7ddee;
+  width:100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #191b26db;
+  text-align: center;
+}
+
+.new-para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #c53886;
+  text-align: center;
+  max-width: 625px;
+}
+
+.new-list-cards-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width:100%;
+}
