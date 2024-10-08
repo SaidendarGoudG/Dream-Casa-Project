@@ -46,11 +46,7 @@
   }
 
   .line{
-    background-color:#B2BEB5;
-  }
-
-  .details{
-    display: flex;
+    background-color:#e4eae6;
   }
 
   .amount{
@@ -59,22 +55,6 @@
     padding-right:15px;
   }
 
-  .price{
-    font-size:20px;
-    margin-top:0px;
-    padding-right:15px;
-    color:#B2BEB5;
-    text-decoration:line-through
-  }
-
-  .discount{
-    font-size:20px;
-    margin-top:0px;
-    padding-right:15px;
-    color:hwb(120 7% 27% / 0.905);
-    font-weight: 500;
-  }
-  
   .button{
     font-size: 15px;
     color:white;
@@ -85,7 +65,9 @@
     height:40px;
   }
 
-  .icon{
-    color:red;
-    font-size:30px;
-  }
+.spam-con{
+    background-color:#2585fa;
+    color:white;
+    border-radius: 2px;
+    padding:5px;
+}
